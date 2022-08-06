@@ -1,0 +1,31 @@
+<% if current_page?(new_user_session_path) %>
+  Log In
+<% end %>
+<% if current_page?(new_user_registration_path) %>
+  Sign Up
+<% end %>
+<% if current_page?(new_user_password_path) %>
+  Forgot Password
+<% end %>
+<% if @group %>
+  <% if @group.id == nil && current_page?(new_group_path) %>
+    New Category
+  <% end %>
+  <% if @group.id != nil && current_page?(group_path(@group)) %>
+    <%= @group.name.upcase %>
+  <% end %>
+  <% if @group.id != nil && current_page?(edit_group_path(@group)) %>
+    Edit Category
+  <% end %>
+<% end %>
+<% if @transaction && @group %>
+  <% if @transaction.id == nil && current_page?(new_group_transaction_path(@group)) %>
+    New Transaction
+  <% end %>
+  <% if @transaction.id != nil && current_page?(edit_group_transaction_path(@group, @transaction)) %>
+    Edit Transaction
+  <% end %>
+<% end %>
+<% if current_page?(groups_path) %>
+  Categories
+<% end %>
