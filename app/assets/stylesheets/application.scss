@@ -133,7 +133,6 @@ a {
   padding: 0 10%;
 }
 
-
 .nav-btn {
   color: white;
   font-size: 1.5em;
@@ -154,19 +153,19 @@ a {
 }
 
 form {
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10%;
+  justify-content: center;
+
+  div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 10%;
-    justify-content: center;
-    div{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  }
 }
 
 .inputs {
@@ -323,10 +322,9 @@ form {
 .select_icon {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: row;
   justify-content: space-between;
-    width: 88%;
+  width: 88%;
 }
 
 .select_icon_label {
