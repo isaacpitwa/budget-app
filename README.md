@@ -12,7 +12,7 @@
 - password: 123456
 
 Live Presentation
-For a live presentation of the project check this Loom video.
+For a live presentation of the project check [this](https://www.loom.com/share/459f47da8aa04859826671fb919e8670) Loom video.
 
 ## Development set up
 
