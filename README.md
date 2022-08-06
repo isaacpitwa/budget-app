@@ -5,6 +5,15 @@
 > The Blog app will be a classic example of a blog website. You will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 
+## Live Demo
+ For a live demo of the project [click here](https://protected-beach-80550.herokuapp.com/). Please log in with the following pre-verified credentials:
+
+- email: demo@demo.com
+- password: 123456
+
+Live Presentation
+For a live presentation of the project check [this](https://www.loom.com/share/459f47da8aa04859826671fb919e8670) Loom video.
+
 ## Development set up
 
 Use the following steps to run this Project locally:
