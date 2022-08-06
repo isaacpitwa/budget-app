@@ -45,12 +45,9 @@ Use the following steps to run this Project locally:
 
 ## Built With
 
+- Ruby
 - Ruby on Rails
-- HTML & CSS
-- GitFlow
-- Linters
-- Documented Work
-
+- Postgress
 
 ## 👤 **Author**
 
