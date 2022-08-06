@@ -6,10 +6,13 @@
 
 
 ## Live Demo
- For a live demo of the project click here. Please log in with the following pre-verified credentials:
+ For a live demo of the project [click here](https://protected-beach-80550.herokuapp.com/). Please log in with the following pre-verified credentials:
 
 - email: demo@demo.com
 - password: 123456
+
+Live Presentation
+For a live presentation of the project check this Loom video.
 
 ## Development set up
 
