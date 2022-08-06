@@ -5,6 +5,12 @@
 > The Blog app will be a classic example of a blog website. You will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 
+## Live Demo
+ For a live demo of the project click here. Please log in with the following pre-verified credentials:
+
+- email: demo@demo.com
+- password: 123456
+
 ## Development set up
 
 Use the following steps to run this Project locally:
