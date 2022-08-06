@@ -22,11 +22,6 @@ body {
   padding: 0;
 }
 
-body{
-    width: 80%;
-    margin: auto;
-}
-
 html {
   background-color: #eff3f4;
   margin: 0;
@@ -135,6 +130,7 @@ a {
   margin-bottom: 25px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+  padding: 0 10%;
 }
 
 
@@ -157,8 +153,24 @@ a {
   text-transform: capitalize;
 }
 
+form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10%;
+    justify-content: center;
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .inputs {
-  width: 90%;
+  width: 80%;
   margin: 15px auto;
   padding: 1rem;
   font-size: 1rem;
@@ -186,7 +198,7 @@ a {
 }
 
 .actions-btn {
-  width: 99%;
+  width: 85%;
   background-color: #5fb523;
   color: white;
   border: none;
@@ -197,7 +209,7 @@ a {
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 300;
-  margin: 30px 0;
+  margin: 30px auto;
 }
 
 .shared-links {
@@ -237,7 +249,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 72%;
   padding: 1.25rem 1rem;
   background: white;
   border-radius: 0.2rem;
@@ -267,7 +279,8 @@ a {
   font-weight: 300;
   position: fixed;
   bottom: 2px;
-  width: 80%;
+  width: 75%;
+  left: 14%;
   border-radius: 2px;
 }
 
@@ -311,6 +324,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+    width: 88%;
 }
 
 .select_icon_label {
@@ -329,7 +345,7 @@ select {
   font-weight: 300;
   color: #434654;
   margin: 1rem 1rem 2rem 0;
-  width: 50%;
+  width: 57%;
   text-align: center;
   height: 50px;
 }
@@ -342,13 +358,4 @@ select {
   font-weight: 600;
   color: #434654;
   margin-top: 30px;
-}
-
-@media screen and (max-width: 992px) {
-    body {
-      width: 100%;
-    }
-    .category_button{
-        width: 100%;
-    }
 }
